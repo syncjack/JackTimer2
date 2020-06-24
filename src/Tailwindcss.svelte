@@ -1,0 +1,10 @@
+<style global>
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    body {
+        @apply bg-gray-800;
+        @apply text-gray-100;
+    }
+</style>
