@@ -32,6 +32,7 @@ const plugins = [
     }),
     html2({
         template: "src/index.html",
+        onlinePath: "."
     }),
 ];
 if (isDevelopment) {
