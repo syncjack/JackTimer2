@@ -49,7 +49,7 @@ if (isDevelopment) {
 module.exports = {
     input: "src/index.ts",
     output: {
-        file: "dist/index.js",
+        dir: "docs",
         sourcemap: true,
         format: "iife",
     },
