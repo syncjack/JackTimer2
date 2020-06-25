@@ -116,7 +116,6 @@
         targetCount = 3
         intervalId = workerTimers.setInterval(function testBeatLoop() {
             counter = counter + 1;
-            console.log("Test beat");
             playBeat();
             if (counter === targetCount) {
                 testing = false;
