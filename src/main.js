@@ -1,3 +1,4 @@
+import "./main.css";
 import Svelte from './component.svelte'
 
 new Svelte({

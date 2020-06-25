@@ -24,7 +24,6 @@
 
 <script>
     import * as workerTimers from "worker-timers";
-    import "./Tailwindcss.svelte";
 
     let durationSeconds = 60;
     let strokesPerMinute = 100;
